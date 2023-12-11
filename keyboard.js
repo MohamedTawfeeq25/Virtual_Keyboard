@@ -13,7 +13,17 @@ function eve(e){
 			a.style="text-transform:lowercase";
 		})
 		}
-		box.value+=" ";
+		box.value+=" s";
+	}
+	else if(e=="enter"){
+			if (shift==0){
+			shift=-1
+			var a=document.querySelectorAll(".key");
+		a.forEach((a)=>{
+			a.style="text-transform:lowercase";
+		})
+		}
+		box.value+="\n";
 	}
 	else if(e=="tab"){
 		if (shift==0){

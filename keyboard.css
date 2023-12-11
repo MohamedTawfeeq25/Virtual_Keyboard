@@ -82,8 +82,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	}
 #caps {
 	width: 11%;
-	display: grid;
-	grid-template-columns:90% 10%;
+	display: flex;justify-content:center;align-items:center;
 }
 #tab{
 	width: 10%;

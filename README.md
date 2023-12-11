@@ -1,8 +1,9 @@
 # Virtual Keyboard
 
 This repository contains a simple virtual keyboard implemented using HTML, CSS, and JavaScript.
-
-## Overview
+## Preview
+<img src="./preview.png"/>
+<h2>Overview</h2>
 
 The virtual keyboard provides an on-screen representation of a standard keyboard layout using HTML elements styled with CSS. It allows users to simulate typing and input characters without a physical keyboard. The functionality is implemented using JavaScript to handle keypress events and update the displayed text accordingly.
 

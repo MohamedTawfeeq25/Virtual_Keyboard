@@ -15,6 +15,16 @@ function eve(e){
 		}
 		box.value+=" ";
 	}
+	else if(e=="com"){
+		if (shift==0){
+			shift=-1
+			var a=document.querySelectorAll(".key");
+		a.forEach((a)=>{
+			a.style="text-transform:lowercase";
+		})
+		}
+		box.value+=".com";
+	}
 	else if(e=="enter"){
 			if (shift==0){
 			shift=-1

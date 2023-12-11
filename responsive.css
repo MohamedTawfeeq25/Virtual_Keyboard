@@ -25,12 +25,12 @@
 	display: flex;
 }
 
-#row1 div:hover,#row2 div:hover,#row3 div:hover,#row4 div:hover,#row5 div:hover,#caps:hover
+#row1 button:hover,#row2 button:hover,#row3 button:hover,#row4 button:hover,#row5 button:hover,#caps:hover
 {
 	background-color:#FFFFFF;
 }
-	#row1 div,#row2 div,#row3 div,#row4 div,#row5 div{
-	
+	#row1 button,#row2 button,#row3 button,#row4 button,#row5 button{
+	border:none;
 	margin:2px;
 	cursor: pointer;
 display: flex; 

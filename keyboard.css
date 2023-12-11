@@ -60,13 +60,13 @@ body{
 	display: flex;
 }
 
-#row1 div:hover,#row2 div:hover,#row3 div:hover,#row4 div:hover,#row5 div:hover,#caps:hover
+#row1 button:hover,#row2 button:hover,#row3 button:hover,#row4 button:hover,#row5 button:hover,#caps:hover
 {
 	background-color:#ddd;
 }
-#row1 div,#row2 div,#row3 div,#row4 div,#row5 div{
+#row1 button,#row2 button,#row3 button,#row4 button,#row5 button{
 	background-color: #FFFFFF;
-	margin:5px;
+	margin:5px;border:none;
 	cursor: pointer;
 display: flex; 	height: 85%; 
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -80,7 +80,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 #back{
 	width: 14%;
 	}
-#caps{
+#caps {
 	width: 11%;
 	display: grid;
 	grid-template-columns:90% 10%;

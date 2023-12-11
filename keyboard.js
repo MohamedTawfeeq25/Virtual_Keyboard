@@ -13,7 +13,7 @@ function eve(e){
 			a.style="text-transform:lowercase";
 		})
 		}
-		box.value+=" s";
+		box.value+=" ";
 	}
 	else if(e=="enter"){
 			if (shift==0){

@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+	#head{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	color:white;font-size: 14px;
+	}
+	#board{
+	display: flex;
+	justify-content:center;
+	align-items:flex-end;
+}
+#keyb{
+	border:1px solid white;
+	background-color: #E9EDF4;
+	width: 100%;
+	height: 75%;
+	display: grid;
+	border-radius: 0px;
+	grid-template-rows:20% 20% 20% 20% 20%;
+}
+#row1,#row2,#row3,#row4,#row5{
+	
+	border-radius: 0px;
+	display: flex;
+}
+
+#row1 div:hover,#row2 div:hover,#row3 div:hover,#row4 div:hover,#row5 div:hover,#caps:hover
+{
+	background-color:#FFFFFF;
+}
+	#row1 div,#row2 div,#row3 div,#row4 div,#row5 div{
+	
+	margin:2px;
+	cursor: pointer;
+display: flex; 
+	height: 75%; 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	justify-content:center;
+	align-items:center;
+	font-size: 13px;
+}
+.key{
+	width:20%;
+}
+#back{
+	width: 50%;
+	}
+#caps{
+	width: 40%;
+	
+}
+
+#tab{
+	width: 40%;
+}
+#enter{
+	width: 40%;
+}
+#shift{
+	width: 40%;
+}
+#space{
+	width: 100%;
+}
+}

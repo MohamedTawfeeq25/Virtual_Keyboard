@@ -1,5 +1,9 @@
 const box=document.getElementById("txt");
 var caps="off";var shift=-1;
+document.getElementById("back").addEventListener('touchstart',()=>{
+	var a=box.value;
+		box.value=a.slice(0,a.length-1);
+})
 function eve(e){
 	if(e=="space"){
 		if (shift==0){
